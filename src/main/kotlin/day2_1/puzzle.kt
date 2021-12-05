@@ -9,7 +9,7 @@ class Position {
 
 fun main() {
     val input = File("src/main/kotlin/day2_1/input").readLines()
-    var position = Position()
+    val position = Position()
 
     for (line in input) {
         if (line.contains("forward")) {
